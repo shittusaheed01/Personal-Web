@@ -1,0 +1,186 @@
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 0.3s;
+  background-color: black;
+  color: aliceblue;
+  /* 
+  font-family: 'Arbutus Slab', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Rufina', serif;
+  font-family: 'Rokkitt', serif;
+   */
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+}
+
+/* Containers */
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  max-width: 900px;
+  margin: 0em auto;
+}
+header {
+  background-color: #3289f0;
+  color: black;
+}
+nav ul {
+  list-style: none;
+  padding: 2em;
+  display: flex;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.home-typos {
+  margin-bottom: 3em;
+}
+.section-containers {
+  width: 80%;
+  max-width: 900px;
+  margin: 2em auto;
+  border-bottom: 1px solid #3289f0;
+}
+.home-links {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 4em;
+  align-items: center;
+}
+button {
+  max-width: 150px;
+  width: 90%;
+  height: 4rem;
+  border-radius: 0.5em;
+  background-color: #333333;
+  color: #2d9cdb;
+  border: none;
+  margin-bottom: 2em;
+  font-family: "Roboto Slab", serif;
+}
+button:hover,
+button:focus {
+  background: rgba(51, 51, 51, 0.77);
+  transition: all ease 0.5s;
+  cursor: pointer;
+  font-weight: 900;
+}
+.technologies{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+/* .two-techs,
+.one-tech{
+display: flex;
+justify-content: space-between;
+align-items: center;
+} */
+.tech-and-name{
+  display: flex;
+  justify-content: space-between;
+  /* width: 80%;
+  margin: 0 auto; */
+  align-items: center;
+} 
+/* 
+  .two-techs,
+.one-tech{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.tech-and-name{
+  width: 45%;
+}
+*/
+/* Typography */
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  padding: 0.5em;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: aliceblue;
+  transition: all ease 0.5s;
+  font-weight: 900;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+}
+header p {
+  font-size: 1.2rem;
+  font-family: "Rokkitt", serif;
+}
+nav li {
+  font-size: 1.7rem;
+  margin: 0.5em 0.3em;
+}
+.home-welcome {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+/* .home  */
+h2 {
+  font-size: 4rem;
+  letter-spacing: 0.2em;
+  font-family: "Roboto", sans-serif;
+}
+.home-name {
+  color: #063975;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+}
+p {
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  font-family: "Rufina", serif;
+}
+.socials a {
+  display: block;
+  margin: 0.3em 0em;
+  padding-right: 0.3em;
+  color: #2d9cdb;
+  font-size: 1.5rem;
+  font-family: "Rufina", serif;
+}
+.socials a:hover,
+.socials i:hover,
+.socials i:focus,
+.socials a:focus {
+  color: #063975;
+  transition: all ease 0.5s;
+}
+
+.different {
+  color: #063975;
+}
+.technologies i{
+  color:#2d9cdb ;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
